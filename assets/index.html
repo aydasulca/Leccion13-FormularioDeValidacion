@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title></title>
+  </head>
+  <body>
+    <header>
+      <h1 style="text-align:center;">Formulario de Datos</h1>
+    </header>
+    <section style="text-align:center;">
+      <form action="">
+        First Name:<br>
+        <input type="text" name="firstname" required><br><br>
+        Last Name:<br>
+        <input type="text" name="lastname" required><br><br>
+        Phone Number:<br>
+        <input type="text" pattern=".{9,}" required><br><br>
+        Escoge tu carro pa continuar:<br><br>
+        <select required="">
+          <option value=>Escoge tu carro</option>
+          <option value="volvo">Volvo</option>
+          <option value="saab">Saab</option>
+          <option value="mercedes">Mercedes</option>
+          <option value="audi">Audi</option>
+        </select><br><br><br>
+        Email:<br>
+        <input type="email" name="email" required><br><br>
+        Crea tu contraseña:<br>
+        <input type="password" name="psw" pattern=".{6,}" title="6 o más caracteres" required><br><br>
+        <input type="submit" name="" value="send">
+      </form>
+    </section>
+
+  </body>
+</html>
